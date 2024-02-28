@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavna Sahu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/617a23287a.js" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+<body>
+
+    <div id="header">
+        <div class="continer">
+            <nav>
+                <!-- <img src="" clas="logo" > -->
+                <h2 class="logo"><b>Portfolio...</b></h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i id ="no" class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i id="no" class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <h1>Hi ,I'm<span> Bhavna Sahu </span></h1>
+                <p>Programmer/Web Developer</p>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-- -----------------ABOUT----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pic_bhavna-removebg-preview.png" alt="" width="40%" height="600px">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        4th year  BTech student having good coding and problem solving skills and solved more than 500 problems on
+                        various coding platforms . 
+                        I am  enthusiastic in learning new technologies  .
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills :</p>
+                        <p class="tab-links " onclick="opentab('Education')">Education :</p>
+                        <p class="tab-links " onclick="opentab('Experience')">Links :</p>
+                        <!-- <p class="tab-links active-link"> </p> -->
+                    </div>
+
+
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li>
+                            <span>Languages :&nbsp</span>
+                            C/C++, Python, HTML,CSS,JAVASCRIPT, SQL ,PHP 
+                             
+                        </li>
+                        <li>
+                            <span>Subjects :&nbsp</span>
+                            DBMS, Data Structures ,OS(operating system) , CN(Computer networks)
+                        </li>
+                         
+                        <!-- <li>
+                            <span>HTML/CSS/JAVASCRIPT</span>
+                        </li> - -->
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li>
+                        
+                            <span>BTech &nbsp </span> Final year Student at SISTec of  Computer science and engineering branch<br>
+                            Current CGPA: 8.96
+                             
+                        </li>
+                        <li>
+                            <span>12th &nbsp </span> Percentage: 89.6
+                        </li>
+                        <li>
+                            <span>10th &nbsp </span> Percentage: 91
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li>
+                            <span><a href="https://leetcode.com/bhavna_384/">Leetcode</a></span>
+                             
+                        </li>
+                        <li>
+                            <span><a href="https://www.hackerrank.com/profile/sahugudiya742">Hackerrank</a></span>
+                        </li>
+                        <li>
+                            <span><a href="https://auth.geeksforgeeks.org/user/bhavnasahu">GeeksforGeeks</a></span>
+                        </li>
+                        <li>
+                            <span><a href="https://www.linkedin.com/in/bhavna-sahu">Linkdin</a></span>
+                        </li>
+                    </ul>
+                </div>
+
+<br>
+    <div class="certificate">
+        <h1 style="color: azure;">Certificates</h1>
+        <br>
+        <ul>
+            <li>
+                <a href="">Python Programming</a>
+            </li><br>
+            <li>
+                <a href="">Django Framework</a>
+            </li><br>
+            <li>
+                <a href="">DSA - NPTEL</a>
+            </li><br>
+            <li>
+                <a href="">JAVASCRIPT</a>
+            </li>
+        </ul>
+    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- <</about> -->
+<!-- services?------------------------------------------------------------------- -->
+<!--
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            
+
+            <div class="">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design </h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo, quasi modi vel quidem praesentium ut ullam veritatis deserunt itaque 
+                    obcaecati e, tenetur doloremque. Sapiente.</p>
+                <a href="#"> learn more..</a>
+            </div>
+
+            <!-- <div class="">
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design </h2>
+                <p>Lorem ipsum dolor sit xplicabo, quasi modi vel quidem praesentium ut ullam veritatis deserunt itaque 
+                    obcaecati eius dolorem repellat repellendus quod provident, tenetur doloremque. Sapiente.</p>
+                <a href="#"> learn more..</a>
+            </div> -->
+
+            <!-- <div class="">
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Design </h2>
+                <p>Lorem ipsum dolor  Assumenda explicabo, quasi modi vel quidem praesentium ut ullam veritatis deserunt itaque 
+                    obcaecati eius dolorem repellat repellendus quod provident, tenetur doloremque. Sapiente.</p>
+                <a href="#"> learn more..</a>
+            </div> 
+        </div>
+    </div>
+</div>-->
+
+
+<!-- ------------------portfoloi----------------------- -->
+<div id="portfolio">
+    <div class="continer">
+        <h1 class="sub-title"> MY Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/url.png" alt="">
+                <div class="layer">
+                    <h3>URL SHORTNER USING PYTHON</h3>
+                    <p>The URL shortener is a Python project ...</p>
+                    <a href="https://github.com/BhavnaSahu/URL_SHORTNER_I"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/criminal.jpeg" alt="">
+                <div class="layer">
+                    <h3>Criminal Database Management System </h3>
+                    <p>Desc..</p>
+                    <a href="https://github.com/BhavnaSahu/Criminal_Database_System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/blockchain.jpeg" alt="">
+                <div class="layer">
+                    <h3>Document Management System Using BlockChain</h3>
+                    <p>Desc..</p>
+                    <a href="https://github.com/BhavnaSahu/BlockChain"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/blog.jpeg" alt="">
+                <div class="layer">
+                    <h3>Blog</h3>
+                    <p>Desc..</p>
+                    <a href="https://github.com/BhavnaSahu/IBlogii"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn"> See more..</a>
+    </div>
+</div>
+
+<!-- -----------------contact----------------------------------- -->
+<div id="contact">
+    <div class="conatainer">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Conatct Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>bhavnasahu1210@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9131567017</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/_bhavnasahu_/"><i class="fa-brands fa-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/in/bhavna-sahu"><i class="fa-brands fa-linkdin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/Bhavna_sahu_latest.pdf" download class="btn btn2"> Download CV</a>
+
+            </div>
+
+            <!-- <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Your Email " required>
+                    <textarea name="message"  rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                
+            </div> -->
+        
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright@ Made with ❤️ </p><br>
+        <!-- <a href="" style="color: blanchedalmond;">Instragram </a>
+        <a href="" style="color: blanchedalmond;">Instragram </a> -->
+    </div>
+</div>
+
+
+
+
+
+<script>
+    
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+    
+</script>
+
+
+<script>
+    var sidemen = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemen.style.right="0";
+    }
+    function closemenu(){
+        sidemen.style.right="-200px";
+    }
+</script>
+
+
+
+    
+</body>
+</html>
